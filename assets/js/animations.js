@@ -17,11 +17,11 @@ jQuery(document).ready(function($) {
         });
         
         $('.phone-holder').css('opacity', 0).one('inview', function(event, isInView) {
-            if (isInView) {$(this).addClass('animated fadeInRight delayp2');}
+            if (isInView) {$(this).addClass('animated fadeInRight delayp1');}
         });
         
         $('.promo-landscape .phone-holder').css('opacity', 0).one('inview', function(event, isInView) {
-            if (isInView) {$(this).addClass('animated fadeInUp delayp4');}
+            if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
         });
     
         /* Animate elements in #Features */
